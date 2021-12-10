@@ -1,0 +1,217 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: rgb(187, 187, 187);
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.collapse .btn {
+  background-color: #000;
+  color: white;
+}
+
+.collapse .btn:hover {
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
+header {
+  padding: 200px 20px 200px;
+  margin-top: -67px;
+  background-image: url(frontends/images/hero-img.png);
+  background-size: cover;
+}
+header h1 {
+  color: #fff;
+  font-weight: bold;
+}
+
+header h6 {
+  color: rgb(194, 194, 194);
+}
+
+header .btn {
+  background-color: rgb(229, 9, 20);
+  color: white;
+}
+
+header .btn:hover {
+  color: #fff;
+  background-color: rgb(253, 61, 71);
+}
+
+.features-content h5 {
+  font-weight: 500;
+}
+
+.features-content p {
+  color: rgb(107, 107, 107);
+}
+
+.section-membership {
+  background-color: rgb(238, 238, 238);
+}
+
+.section-membership p {
+  color: rgb(229, 9, 20);
+}
+
+.section-membership .list-group-item {
+  background-color: transparent;
+  margin: 0;
+  color: #000;
+}
+
+.section-membership .btn {
+  background-color: rgb(229, 9, 20);
+  color: white;
+}
+
+.section-membership .btn:hover {
+  color: #fff;
+  background-color: rgb(253, 61, 71);
+}
+
+.class {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 75px;
+  color: rgb(255, 255, 255);
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 75px;
+  color: #fff;
+}
+
+.section-example {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.section-example p {
+  color: rgb(229, 9, 20);
+}
+
+.section-example .btn {
+  background-color: rgb(229, 9, 20);
+  color: white;
+}
+
+.section-example .btn:hover {
+  color: #fff;
+  background-color: rgb(253, 61, 71);
+}
+
+.section-testimonials {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-testimonials i {
+  font-size: 25px;
+}
+
+.section-testimonials .testimonials img {
+  height: 40px;
+}
+
+.section-testimonials .testimonials p {
+  color: rgb(155, 155, 155);
+}
+
+.section-testimonials .testimonials h5 {
+  color: rgb(104, 103, 103);
+}
+
+.section-price .price-card .annual-plan {
+  border-color: rgb(229, 9, 20);
+}
+.section-price .btn {
+  background-color: rgb(229, 9, 20);
+  width: 78%;
+  color: white;
+}
+
+.section-price .btn:hover {
+  background-color: rgb(255, 70, 79);
+  color: white;
+}
+
+.section-price .price-card {
+  width: 40%;
+}
+.section-price .card {
+  height: 100%;
+}
+
+.section-price .price-card .card-body .time-plan {
+  font-size: 17px;
+}
+
+.section-price .price-card .card-body li {
+  padding-bottom: 13px;
+  color: rgb(122, 122, 122);
+}
+
+.section-price .price-card .card-body li.save {
+  color: rgb(229, 9, 20);
+}
+footer {
+  margin-bottom: -20px;
+}
+footer ul li i.social-media {
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+footer li a {
+  color: #fff;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+footer li a:hover {
+  color: rgb(229, 9, 20);
+  font-size: 13px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 300px) and (max-width: 765px) {
+  .section-example .embed {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .section-price .price-card {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 766px) and (max-width: 992px) {
+  .section-price .price-card {
+    width: 50%;
+  }
+}
